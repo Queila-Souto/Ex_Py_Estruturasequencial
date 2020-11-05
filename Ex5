@@ -1,0 +1,8 @@
+'''5 - Faça um Programa que converta metros para centímetros.'''
+def Exercicio5():
+    valor_metro = float(input("Digite o valor em metros que deseja converter"))
+    valor_centimetro = 100
+    conversao = float(valor_metro * valor_centimetro)
+    print (f"{valor_metro} metro(s) equivale a {conversao} centímetros ")
+    
+Exercicio5()
