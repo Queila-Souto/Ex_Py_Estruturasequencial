@@ -1,0 +1,6 @@
+''' 2 - Faça um Programa que peça um número e então mostre a mensagem o número informado foi [número].'''
+def Exercicio2():
+    x= float (input ("digite um numero"))
+    print ("O numero digitado é", x)
+    
+Exercicio2()
