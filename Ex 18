@@ -1,0 +1,9 @@
+'''18 - Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet 
+(em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos). '''
+def Exercicio18():
+    tam_arquivo = float(input ("Digite o tamanho do arquivo que deseja baixar em MB"))
+    velocidade = float(input("Digite a velocidade da sua internet em Mbps"))
+    tempo_min = float((tam_arquivo // velocidade) / 60)
+    print (f"O tempo aproximado para dowload é {tempo_min:.2f} minutos")
+
+Exercicio18()
