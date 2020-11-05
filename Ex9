@@ -1,0 +1,8 @@
+''' 9 - Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+C = 5 * ((F-32) / 9). '''
+def Exercicio9():
+    fahr= float ( input("Digite a temperatura em graus Fahrenheit"))
+    cels= 5 *((fahr-32)/9)
+    print (f"{fahr} graus Fahrenheit = {cels} graus celsius")
+
+Exercicio9()
