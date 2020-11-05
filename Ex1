@@ -1,0 +1,5 @@
+''' 1 - Faça um Programa que mostre a mensagem "HelloWolrd" na tela '''
+def Exercicio1():
+    print ("HelloWolrd")
+    
+Exercicio1()
