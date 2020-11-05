@@ -1,0 +1,18 @@
+''' 13 - Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+Para homens: (72.7*h) - 58
+Para mulheres: (62.1*h) - 44.7'''
+def Exercicio13():
+    altura = float(input("Digite sua altura"))
+    det_sexo = input("Digite\n"
+                    "1- para homem \n"
+                    "2- para mulher\n ")
+    if (det_sexo == "1"):
+        peso_idh = (72.7* altura ) - 58
+        print (f"O seu peso ideal é {peso_idh:.2f} kg")
+    elif (det_sexo == "2"):
+        peso_idm = (62.1*altura) - 44.7
+        print(f"O seu peso ideal é {peso_idm:.2f} kg")
+    else:
+        print("Valor Invalido")
+        
+Exercicio13()
