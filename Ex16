@@ -1,0 +1,16 @@
+'''16- Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. 
+Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, 
+que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.'''
+def Exercicio16():
+    metros_quad = int (input("Digite em metros quadrado o tamanho da área a ser pintada"))
+    cob1l = 3
+    lata_lit = 18
+    lata_valor = 80
+    lata_m2= lata_lit * cob1l
+    lata_tot= (metros_quad // lata_m2) + ((metros_quad % lata_m2) > 0 )
+    valor_tot= lata_tot * lata_valor
+    print (f"Total calculado para a área de {metros_quad} m²:\n\n"
+           f"{lata_tot:.0f} lata(s)\n"
+           f"Tatal a pagar : R$ {valor_tot:.2f}")
+           
+Exercicio16()
